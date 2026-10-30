@@ -1,0 +1,149 @@
+{
+  "name": "Angkor Wat -- expanded schematic site plan",
+  "units": "metres",
+  "note": "Approximate schematic inspired by the Angkor Wat plan reference image. Coordinates are illustrative, not surveyed measurements. y is UP.",
+  "scale_px_per_m": 8.0,
+  "origin_m": [2.0, 2.0],
+  "polylines": [
+    {
+      "id": "outer_enclosure",
+      "category": "wall",
+      "closed": true,
+      "points": [[0,0],[160,0],[160,140],[0,140]]
+    },
+    {
+      "id": "moat_outer_edge",
+      "category": "wall",
+      "closed": true,
+      "points": [[8,7],[152,7],[152,133],[8,133]]
+    },
+    {
+      "id": "moat_inner_edge",
+      "category": "wall",
+      "closed": true,
+      "points": [[16,15],[144,15],[144,125],[16,125]]
+    },
+    {
+      "id": "inner_enclosure",
+      "category": "wall",
+      "closed": true,
+      "points": [[30,25],[130,25],[130,115],[30,115]]
+    },
+    {
+      "id": "inner_gallery",
+      "category": "wall",
+      "closed": true,
+      "points": [[43,36],[117,36],[117,104],[43,104]]
+    },
+    {
+      "id": "central_temple_platform",
+      "category": "cella",
+      "closed": true,
+      "points": [[60,47],[100,47],[100,93],[60,93]]
+    },
+    {
+      "id": "central_sanctuary",
+      "category": "cella",
+      "closed": true,
+      "points": [[70,57],[90,57],[90,83],[70,83]]
+    },
+    {
+      "id": "west_causeway",
+      "category": "stair",
+      "closed": false,
+      "points": [[68,0],[68,25]]
+    },
+    {
+      "id": "west_entrance_left",
+      "category": "stair",
+      "closed": false,
+      "points": [[68,15],[68,29],[75,29]]
+    },
+    {
+      "id": "west_entrance_right",
+      "category": "stair",
+      "closed": false,
+      "points": [[92,15],[92,29],[85,29]]
+    },
+    {
+      "id": "west_entrance_steps",
+      "category": "stair",
+      "closed": false,
+      "points": [[72,18],[88,18]]
+    },
+    {
+      "id": "west_entrance_steps_2",
+      "category": "stair",
+      "closed": false,
+      "points": [[72,21],[88,21]]
+    },
+    {
+      "id": "west_entrance_steps_3",
+      "category": "stair",
+      "closed": false,
+      "points": [[72,24],[88,24]]
+    },
+    {
+      "id": "north_axis",
+      "category": "axis",
+      "closed": false,
+      "points": [[80,0],[80,140]]
+    },
+    {
+      "id": "east_west_axis",
+      "category": "axis",
+      "closed": false,
+      "points": [[0,70],[160,70]]
+    },
+    {
+      "id": "north_gallery_axis",
+      "category": "axis",
+      "closed": false,
+      "points": [[30,70],[130,70]]
+    },
+    {
+      "id": "south_gallery_axis",
+      "category": "axis",
+      "closed": false,
+      "points": [[80,25],[80,115]]
+    },
+    {
+      "id": "northwest_structure",
+      "category": "shrine",
+      "closed": true,
+      "points": [[38,88],[47,88],[47,97],[38,97]]
+    },
+    {
+      "id": "northeast_structure",
+      "category": "shrine",
+      "closed": true,
+      "points": [[113,88],[122,88],[122,97],[113,97]]
+    },
+    {
+      "id": "southwest_structure",
+      "category": "shrine",
+      "closed": true,
+      "points": [[38,43],[47,43],[47,52],[38,52]]
+    },
+    {
+      "id": "southeast_structure",
+      "category": "shrine",
+      "closed": true,
+      "points": [[113,43],[122,43],[122,52],[113,52]]
+    }
+  ],
+  "silhouette": {
+    "id": "footprint",
+    "category": "wall",
+    "points": [
+      [12, 0],
+      [148, 0],
+      [160, 12],
+      [160, 128],
+      [148, 140],
+      [12, 140],
+      [0, 128],
+      [0, 12]
+    ]
+  }
+}

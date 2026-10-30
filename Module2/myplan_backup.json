@@ -1,0 +1,56 @@
+{
+  "name": "Angkor Wat -- traced schematic site plan",
+  "units": "metres",
+  "note": "Initial schematic tracing based on the Angkor Wat site-plan reference image. Coordinates are approximate, not a surveyed plan. y is UP.",
+  "scale_px_per_m": 8.0,
+  "origin_m": [2.0, 2.0],
+  "polylines": [
+    {
+      "id": "outer_wall",
+      "category": "wall",
+      "closed": true,
+      "points": [[0,0],[160,0],[160,140],[0,140]]
+    },
+    {
+      "id": "outer_enclosure",
+      "category": "wall",
+      "closed": true,
+      "points": [[12,12],[148,12],[148,128],[12,128]]
+    },
+    {
+      "id": "inner_enclosure",
+      "category": "wall",
+      "closed": true,
+      "points": [[35,28],[125,28],[125,112],[35,112]]
+    },
+    {
+      "id": "central_temple",
+      "category": "cella",
+      "closed": true,
+      "points": [[65,53],[95,53],[95,87],[65,87]]
+    },
+    {
+      "id": "west_entrance",
+      "category": "stair",
+      "closed": false,
+      "points": [[72,0],[72,18],[88,18],[88,0]]
+    },
+    {
+      "id": "north_axis",
+      "category": "axis",
+      "closed": false,
+      "points": [[80,0],[80,140]]
+    },
+    {
+      "id": "east_axis",
+      "category": "axis",
+      "closed": false,
+      "points": [[0,70],[160,70]]
+    }
+  ],
+  "silhouette": {
+    "id": "footprint",
+    "category": "wall",
+    "points": [[0,0],[160,0],[160,140],[0,140]]
+  }
+}
